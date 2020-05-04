@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/c/OS/OpenServer/domains/test
+    - /bin/cp -a * $DEPLOYPATH
